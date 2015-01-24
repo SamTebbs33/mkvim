@@ -10,6 +10,8 @@ Features
 Installation
 ============
 
+By itself, mkvim will only work on a UNIX base system (such as Mac OS X, it may work on Linux, but this hasn't been tested). To use it with Windows, you will need to download and install <a href="https://www.cygwin.com">Cygwin</a>, then run it from there.
+
 To install mivim, just download this repo as a zip (see the button to the left) and extract it somewhere, or clone the repo
 
 ```
