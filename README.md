@@ -18,7 +18,7 @@ name
         -> .vimrc
 ```
 
-It will also make an alias in your ~/.vim_aliases file (it will created if it doesn't exist), so that you can then run your new profile with
+It will also make an alias in your ~/.vim_aliases file (it gets created if it doesn't exist), so that you can then run your new profile with
 
 ```
 vimname
@@ -34,4 +34,4 @@ fi
 
 This will make it so that the .vim_aliases file is loaded when a new bash session is started, start a new terminal window for this.
 
-When the profile is created, all lines from the .vimrc_template file is put into the new profile's .vim directory, in this file, you can add any configuration magic that should be common to all new profiles.
+You will now be able to preserve a separate configuration and group of plugins for each profile.
