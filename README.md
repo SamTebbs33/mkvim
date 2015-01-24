@@ -46,6 +46,8 @@ name
         -> .vimrc
 ```
 
+When the profile is created, the text inside vimrc_template is added to the profile's .vimrc, and the contents of vim_template is copied to the profile's .vim directory. This allows you to provide common configurations and .vim contents that is added to each profile.
+
 It will also make an alias in your ~/.vim_aliases file (it gets created if it doesn't exist), so that you can then run your new profile with
 
 ```

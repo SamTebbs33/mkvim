@@ -31,5 +31,6 @@ VIM2RC=$VIM2"/.vimrc"
 VIMALIAS="alias vim$1=\"vim -u $VIM2RC\""
 printf "$VIMALIAS\n" >> ~/.vim_aliases
 
-cp ../vimrc_template .vim/.vimrc 
+cp ../vimrc_template .vim/.vimrc
+cp -r ../vim_template/. .vim/
 cd ..
