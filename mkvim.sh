@@ -11,7 +11,7 @@ fi
 echo "Making a new vim profile: $1"
 mkdir $1
 cd $1
-echo "The .vim folder is inside this directory. Enable hidden files to see them." > README.txt
+echo "The .vim folder is inside this directory. Enable hidden files to see it." > README.txt
 
 # Get current directory and then make it relative to $HOME
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
