@@ -1,6 +1,14 @@
 MKVim is a small and simple shell script that creates a new vim profile. Each profile has a separate .vim runtime and configuration from the rest.
 
-Features
+Contents
+========
+
+* <a href="#Features">Features</a>
+* <a href="#Installation">Installation</a>
+* <a href="#Usage">Usage</a>
+* <a href="#Example">Example</a>
+
+<a id="Features">Features</a>
 ========
 
 * Each profile's runtime and configuration is separate from other profiles
