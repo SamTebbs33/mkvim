@@ -15,7 +15,7 @@ Contents
 * Adds an alias so that the new profile can easily be run with one command
 * Adds common configuration settings to each newly created profile
 
-Installation
+<a id="Installation">Installation</a>
 ============
 
 By itself, MKVim will only work on a UNIX base system (such as Mac OS X, it may work on Linux, but this hasn't been tested). To use it with Windows, you will need to download and install <a href="https://www.cygwin.com">Cygwin</a>, then run it from there.
@@ -28,7 +28,7 @@ $ git clone https://github.com/SamTebbs33/mkvim.git
 
 You can then enter the mkvim directory and start adding profiles!
 
-Usage
+<a id="Usage">Usage</a>
 =====
 
 Make sure that you're in the same directory as mkvim.sh and execute either of the following commands, where *name* is the name of your profile.
@@ -64,7 +64,7 @@ This will make it so that the .vim_aliases file is loaded when a new bash sessio
 
 Now, each change you make to a profile's configuration and .vim folder will be specific to that profile and won't interfere with any others!
 
-Example
+<a id="Example">Example</a>
 =======
 
 For example, if I wanted to make a new profile for Java development, I would run the following command
