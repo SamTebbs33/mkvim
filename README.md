@@ -15,7 +15,7 @@ This will then create a new directory with the following structure
 ```
 name
     -> .vim
-	-> .vimrc
+&nbsp;&nbsp;-> .vimrc
 ```
 
 It will also make an alias in your ~/.vim_aliases file (it will created if it doesn't exist), so that you can then run your new profile with
