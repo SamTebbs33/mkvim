@@ -1,5 +1,16 @@
 mivim is a small and simple shell script that creates a new vim profile for you.
 
+Installation
+============
+
+To install mivim, just download this repo as a zip (see the button to the left) and extract it somewhere, or clone the repo
+
+```
+git clone https://github.com/SamTebbs33/mkvim.git
+```
+
+You can then enter the mkvim directory and start adding profiles!
+
 Usage
 =====
 
@@ -34,4 +45,4 @@ fi
 
 This will make it so that the .vim_aliases file is loaded when a new bash session is started, start a new terminal window for this.
 
-You will now be able to preserve a separate configuration and group of plugins for each profile.
+Now, each change you make to a profile's configuration and .vim folder will be specific to that profile and won't interfere with any others!
