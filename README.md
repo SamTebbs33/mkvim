@@ -1,4 +1,11 @@
-mivim is a small and simple shell script that creates a new vim profile for you.
+mivim is a small and simple shell script that creates a new vim profile. Each profile has a separate .vim runtime and configuration from the rest.
+
+Features
+========
+
+* Each profile's runtime and configuration is separate from other profiles
+* Adds an alias so that the new profile can easily be run with one command
+* Adds common configuration settings to each newly created profile
 
 Installation
 ============
