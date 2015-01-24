@@ -8,6 +8,11 @@ if [ $2 == "-c" ]; then
 	rm ~/.vim_aliases
 fi
 
+# Create the vim_template folder if it doesn’t exist
+if [ ! -a vim_template ]; then
+	mkdir vim_template
+fi
+
 echo "Making a new vim profile: $1"
 mkdir $1
 cd $1
