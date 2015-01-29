@@ -1,4 +1,4 @@
-MKVim is a small and simple shell script that creates a new vim profile. Each profile has a separate .vim runtime and configuration from the rest.
+MKVim is a small and simple shell script that creates a new vim profile. Each profile has a separate .vim runtime and configuration from the rest. I have also included the cpvim script, which copies a profile's configuration settings into your template files.
 
 Contents
 ========
@@ -65,6 +65,15 @@ fi
 This will make it so that the .vim_aliases file is loaded when a new bash session is started, start a new terminal window for this.
 
 Now, each change you make to a profile's configuration and .vim folder will be specific to that profile and won't interfere with any others!
+
+You can copy a profile's configuration (the .vim directory and .vimrc file) to your vim_teplate and vimc_template by using the cpvim.sh script.
+
+```
+sh cpvim.sh name
+```
+
+Where *name* is the name of your profile
+
 
 <a id="Example">Example</a>
 =======
