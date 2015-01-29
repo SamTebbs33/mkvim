@@ -66,7 +66,7 @@ This will make it so that the .vim_aliases file is loaded when a new bash sessio
 
 Now, each change you make to a profile's configuration and .vim folder will be specific to that profile and won't interfere with any others!
 
-You can copy a profile's configuration (the .vim directory and .vimrc file) to your vim_teplate and vimc_template by using the cpvim.sh script.
+You can copy a profile's configuration (the .vim directory and .vimrc file) to your vim_teplate and vimrc_template by using the cpvim.sh script.
 
 ```
 sh cpvim.sh name
