@@ -31,11 +31,10 @@ You can then enter the mkvim directory and start adding profiles!
 <a id="Usage">Usage</a>
 =====
 
-Make sure that you're in the same directory as mkvim.sh and execute either of the following commands, where *name* is the name of your profile.
+Make sure that you're in the same directory as mkvim.sh and execute the following command, where *name* is the name of your profile.
 
 ```
 $ sh mkvim.sh name
-$ sh mkvim.sh name -c # -c removes all previously created Vim profile aliases
 ```
 
 This will then create a new directory with the following structure
@@ -73,7 +72,6 @@ sh cpvim.sh name
 ```
 
 Where *name* is the name of your profile
-
 
 <a id="Example">Example</a>
 =======
